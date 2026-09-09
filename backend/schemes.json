@@ -1,0 +1,423 @@
+[
+  {
+    "id": "tn_adw_post_matric_sc_st",
+    "name": "Post-Matric Scholarship for SC/ST Students",
+    "department": "Adi Dravidar and Tribal Welfare Department (ADW), Govt of Tamil Nadu",
+    "eligibility": {
+      "community": ["SC", "ST"],
+      "max_income": 250000,
+      "gender": "any",
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Diploma", "Arts & Science", "ITI"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null
+    },
+    "benefit_amount": 75000,
+    "benefit_description": "Full tuition fee reimbursement and annual maintenance allowance of up to ₹75,000 for professional and general higher education",
+    "benefit_type": "Annual Reimbursement",
+    "excludes": ["tn_bcmbc_post_matric", "tn_first_gen_tuition_waiver", "tn_minorities_post_matric", "tn_free_edu_bc_mbc", "tn_annal_ambedkar_pg_special"],
+    "priority_weight": 9,
+    "application_deadline": "2026-10-31",
+    "required_documents": [
+      "Community Certificate (SC/ST issued by Tahsildar)",
+      "Annual Income Certificate (≤ ₹2,50,000)",
+      "10th & 12th Standard Marksheet",
+      "College Bonafide Certificate",
+      "Aadhaar Card",
+      "Bank Passbook seeded with NPCI / Aadhaar"
+    ]
+  },
+  {
+    "id": "tn_bcmbc_post_matric",
+    "name": "Post-Matric Scholarship Scheme for BC/MBC/DNC Students",
+    "department": "BC, MBC and Minorities Welfare Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": ["BC", "MBC", "DNC"],
+      "max_income": 250000,
+      "gender": "any",
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Diploma", "Arts & Science", "ITI"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null
+    },
+    "benefit_amount": 25000,
+    "benefit_description": "Tuition fees, special examination fees, and annual maintenance allowance of ₹25,000",
+    "benefit_type": "Annual Grant",
+    "excludes": ["tn_adw_post_matric_sc_st", "tn_minorities_post_matric", "tn_free_edu_bc_mbc"],
+    "priority_weight": 8,
+    "application_deadline": "2026-10-15",
+    "required_documents": [
+      "Community Certificate (BC / MBC / DNC)",
+      "Current Financial Year Income Certificate (≤ ₹2,50,000)",
+      "College Admission Allotment Order",
+      "College Bonafide Certificate",
+      "Aadhaar Card",
+      "Active Student Bank Passbook Copy"
+    ]
+  },
+  {
+    "id": "tn_pudhumai_penn",
+    "name": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+    "department": "Social Welfare and Women Empowerment Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": null,
+      "gender": ["Female"],
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Diploma", "Arts & Science", "ITI"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": true
+    },
+    "benefit_amount": 12000,
+    "benefit_description": "₹1,000 monthly direct bank transfer (₹12,000/year) to encourage girls from govt schools to complete higher education",
+    "benefit_type": "Monthly Direct Benefit Transfer",
+    "excludes": ["tn_tamil_pudhalvan"],
+    "priority_weight": 10,
+    "application_deadline": "2026-09-24",
+    "required_documents": [
+      "School TC / Headmaster Certificate confirming Study in Govt Schools (Class 6-12)",
+      "Current College Student ID and Bonafide",
+      "Aadhaar Card with Mobile Linkage",
+      "Bank Account Details with Active DBT Linkage"
+    ]
+  },
+  {
+    "id": "tn_tamil_pudhalvan",
+    "name": "Tamil Pudhalvan Scheme for Male Higher Education Students",
+    "department": "Higher Education Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": null,
+      "gender": ["Male"],
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Diploma", "Arts & Science", "ITI"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": true
+    },
+    "benefit_amount": 12000,
+    "benefit_description": "₹1,000 monthly allowance (₹12,000/year) to assist boys from govt schools in purchasing course textbooks and academic supplies",
+    "benefit_type": "Monthly Direct Benefit Transfer",
+    "excludes": ["tn_pudhumai_penn"],
+    "priority_weight": 10,
+    "application_deadline": "2026-09-28",
+    "required_documents": [
+      "Proof of Study in Tamil Nadu Govt School from Class 6th to 12th",
+      "College Admission Bonafide Certificate",
+      "Aadhaar Card",
+      "Student Bank Passbook seeded with Aadhaar"
+    ]
+  },
+  {
+    "id": "tn_first_gen_tuition_waiver",
+    "name": "First Generation Graduate Tuition Fee Concession Scheme",
+    "department": "Directorate of Technical / Medical Education, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": null,
+      "gender": "any",
+      "course_type": ["Engineering", "Medical"],
+      "min_disability_percent": null,
+      "first_generation_graduate": true,
+      "state_domicile_required": true,
+      "govt_school_studied": null
+    },
+    "benefit_amount": 40000,
+    "benefit_description": "Full tuition fee waiver of up to ₹40,000/yr for professional degree candidates where no family member has graduated",
+    "benefit_type": "Tuition Fee Waiver",
+    "excludes": ["tn_adw_post_matric_sc_st"],
+    "priority_weight": 8,
+    "application_deadline": "2026-11-15",
+    "required_documents": [
+      "First Generation Graduate Certificate issued by Tahsildar",
+      "Joint Declaration signed by Student and Parents/Guardian",
+      "TNEA / TN Medical Counseling Allotment Order",
+      "10th & 12th Standard Marksheets",
+      "Nativity Certificate"
+    ]
+  },
+  {
+    "id": "tn_free_edu_bc_mbc",
+    "name": "Free Education Scheme for BC/MBC/DNC (3-Year UG Degree)",
+    "department": "BC, MBC and Minorities Welfare Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": ["BC", "MBC", "DNC"],
+      "max_income": 200000,
+      "gender": "any",
+      "course_type": ["Arts & Science", "Diploma", "UG"],
+      "min_disability_percent": null,
+      "first_generation_graduate": true,
+      "state_domicile_required": true,
+      "govt_school_studied": null
+    },
+    "benefit_amount": 15000,
+    "benefit_description": "Complete tuition and special fee exemption of ₹15,000/year for non-professional 3-year graduation courses",
+    "benefit_type": "Tuition Fee Waiver",
+    "excludes": ["tn_bcmbc_post_matric", "tn_adw_post_matric_sc_st"],
+    "priority_weight": 7,
+    "application_deadline": "2026-10-20",
+    "required_documents": [
+      "First Graduate Certificate from Revenue Department",
+      "BC / MBC / DNC Community Certificate",
+      "Income Certificate (≤ ₹2,00,000)",
+      "College Bonafide with Fee Structure"
+    ]
+  },
+  {
+    "id": "tn_differently_abled_scholarship",
+    "name": "State Special Scholarship for Differently Abled Students",
+    "department": "Welfare of Differently Abled Persons Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": null,
+      "gender": "any",
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Diploma", "Arts & Science", "ITI"],
+      "min_disability_percent": 40,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null
+    },
+    "benefit_amount": 35000,
+    "benefit_description": "Comprehensive grant of ₹35,000/yr including reader allowances, assistive equipment support, and living stipend",
+    "benefit_type": "Annual Special Grant",
+    "excludes": [],
+    "priority_weight": 10,
+    "application_deadline": "2026-11-30",
+    "required_documents": [
+      "UDID Card / National Disability Identity Card (≥ 40%)",
+      "Medical Board Certificate signed by District Medical Officer",
+      "College Bonafide Certificate",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ]
+  },
+  {
+    "id": "tn_cm_merit_award",
+    "name": "Chief Minister's Higher Education Merit Award",
+    "department": "Higher Education Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": 300000,
+      "gender": "any",
+      "course_type": ["Engineering", "Medical", "UG", "PG"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null,
+      "merit_student_required": true
+    },
+    "benefit_amount": 30000,
+    "benefit_description": "Competitive academic merit stipend of ₹30,000 per academic year for top performers in state examinations",
+    "benefit_type": "Merit Award",
+    "excludes": ["tn_perarignar_anna_award"],
+    "priority_weight": 8,
+    "application_deadline": "2026-10-10",
+    "required_documents": [
+      "12th Standard Certified Marksheet with High Percentile",
+      "Income Certificate (≤ ₹3,00,000)",
+      "Nativity Certificate of Tamil Nadu",
+      "College Bonafide Certificate",
+      "Bank Passbook Copy"
+    ]
+  },
+  {
+    "id": "tn_evr_nagammai_women_pg",
+    "name": "Periyar E.V.R. Nagammai Memorial Free Education Scheme for Women PG Students",
+    "department": "Directorate of Collegiate Education, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": 200000,
+      "gender": ["Female"],
+      "course_type": ["PG", "Arts & Science"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null
+    },
+    "benefit_amount": 18000,
+    "benefit_description": "Full tuition fee waiver up to ₹18,000/yr for female postgraduate students in Arts and Science faculties",
+    "benefit_type": "Tuition Fee Waiver",
+    "excludes": ["tn_adw_post_matric_sc_st", "tn_bcmbc_post_matric"],
+    "priority_weight": 6,
+    "application_deadline": "2026-10-25",
+    "required_documents": [
+      "Undergraduate Degree Completion Certificate and Consolidated Marksheet",
+      "Parent/Guardian Income Certificate (≤ ₹2,00,000)",
+      "Bonafide Certificate from College Head",
+      "Aadhaar Card"
+    ]
+  },
+  {
+    "id": "tn_annal_ambedkar_pg_special",
+    "name": "Annal Ambedkar Post Graduate Special Scholarship for SC/ST",
+    "department": "Adi Dravidar and Tribal Welfare Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": ["SC", "ST"],
+      "max_income": 250000,
+      "gender": "any",
+      "course_type": ["PG", "Engineering", "Medical"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null
+    },
+    "benefit_amount": 50000,
+    "benefit_description": "Specialized postgraduate scholarship of ₹50,000/year for books, thesis preparation, and hostel residency for SC/ST scholars",
+    "benefit_type": "Annual Postgraduate Fellowship",
+    "excludes": ["tn_adw_post_matric_sc_st"],
+    "priority_weight": 9,
+    "application_deadline": "2026-11-05",
+    "required_documents": [
+      "SC/ST Permanent Community Certificate",
+      "Annual Family Income Certificate (≤ ₹2,50,000)",
+      "Undergraduate Degree Certificate",
+      "PG Department Bonafide Certificate",
+      "Hostel Warden Certification (if hosteler)"
+    ]
+  },
+  {
+    "id": "tn_perarignar_anna_award",
+    "name": "Perarignar Anna Memorial Award for SC/ST District Toppers",
+    "department": "Adi Dravidar and Tribal Welfare Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": ["SC", "ST"],
+      "max_income": null,
+      "gender": "any",
+      "course_type": ["UG", "Engineering", "Medical", "Arts & Science"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null,
+      "merit_student_required": true
+    },
+    "benefit_amount": 20000,
+    "benefit_description": "Annual cash incentive of ₹20,000 awarded to top two rank holders in 12th board examinations from each district",
+    "benefit_type": "Merit Citation & Award",
+    "excludes": ["tn_cm_merit_award"],
+    "priority_weight": 7,
+    "application_deadline": "2026-10-18",
+    "required_documents": [
+      "12th Standard Marksheet with District Merit Rank Endorsement",
+      "SC/ST Community Certificate",
+      "College Admission Allotment Letter",
+      "Bank Account Details"
+    ]
+  },
+  {
+    "id": "tn_minorities_post_matric",
+    "name": "Post-Matric Scholarship for Religious Minorities",
+    "department": "Minorities Welfare Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": 200000,
+      "gender": "any",
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Diploma", "Arts & Science", "ITI"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null,
+      "minority_community_required": true
+    },
+    "benefit_amount": 20000,
+    "benefit_description": "Direct financial aid of ₹20,000/yr for students from notified religious minority communities (Muslim, Christian, Jain, Buddhist, Sikh, Parsi)",
+    "benefit_type": "Annual Maintenance",
+    "excludes": ["tn_adw_post_matric_sc_st", "tn_bcmbc_post_matric"],
+    "priority_weight": 6,
+    "application_deadline": "2026-10-31",
+    "required_documents": [
+      "Minority Self-Declaration Certificate / Community Certificate",
+      "Income Certificate (≤ ₹2,00,000)",
+      "Marksheet of previous qualifying examination (minimum 50% marks)",
+      "College Bonafide Certificate",
+      "Aadhaar-seeded Bank Passbook"
+    ]
+  },
+  {
+    "id": "tn_uzhavar_pathukappu_scholarship",
+    "name": "Chief Minister's Uzhavar Pathukappu Thittam (Farmers' Children Higher Education Grant)",
+    "department": "Revenue and Disaster Management Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": "any",
+      "max_income": 120000,
+      "gender": "any",
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Diploma", "Arts & Science", "ITI"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null,
+      "farmer_card_holder_required": true
+    },
+    "benefit_amount": 15000,
+    "benefit_description": "Educational grant of ₹15,000/yr for wards of small/marginal farmers and registered agricultural laborers",
+    "benefit_type": "Welfare Grant",
+    "excludes": [],
+    "priority_weight": 6,
+    "application_deadline": "2026-12-15",
+    "required_documents": [
+      "Uzhavar Pathukappu Thittam Identity Card issued by Special Tahsildar",
+      "Family Card (Smart Ration Card)",
+      "Bonafide Certificate from College Principal",
+      "Bank Account Details"
+    ]
+  },
+  {
+    "id": "tn_hostel_special_sc_st",
+    "name": "Higher Education Special Scholarship for SC/ST College Hostel Students",
+    "department": "Adi Dravidar and Tribal Welfare Department, Govt of Tamil Nadu",
+    "eligibility": {
+      "community": ["SC", "ST"],
+      "max_income": 250000,
+      "gender": "any",
+      "course_type": ["UG", "PG", "Engineering", "Medical", "Arts & Science"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null,
+      "hostel_resident_required": true
+    },
+    "benefit_amount": 22000,
+    "benefit_description": "Additional ₹22,000/year residential maintenance grant for SC/ST students residing in recognized collegiate hostels",
+    "benefit_type": "Hostel & Mess Subsidy",
+    "excludes": [],
+    "priority_weight": 7,
+    "application_deadline": "2026-11-20",
+    "required_documents": [
+      "College Hostel Warden Certificate confirming residency",
+      "SC/ST Community Certificate",
+      "Income Certificate (≤ ₹2,50,000)",
+      "Hostel Fee Receipt",
+      "Aadhaar Card"
+    ]
+  },
+  {
+    "id": "tn_thanthai_periyar_memorial",
+    "name": "Thanthai Periyar Memorial Award for Polytechnic / Diploma Toppers",
+    "department": "Directorate of Technical Education (DoTE), Govt of Tamil Nadu",
+    "eligibility": {
+      "community": ["BC", "MBC", "DNC"],
+      "max_income": null,
+      "gender": "any",
+      "course_type": ["Diploma"],
+      "min_disability_percent": null,
+      "first_generation_graduate": null,
+      "state_domicile_required": true,
+      "govt_school_studied": null,
+      "merit_student_required": true
+    },
+    "benefit_amount": 10000,
+    "benefit_description": "Cash prize of ₹10,000 for top two rank holders among BC/MBC students in government and polytechnic colleges",
+    "benefit_type": "Merit Incentive",
+    "excludes": [],
+    "priority_weight": 6,
+    "application_deadline": "2026-10-05",
+    "required_documents": [
+      "Polytechnic Semester Marksheets showing Institutional Top Rank",
+      "BC / MBC / DNC Community Certificate",
+      "Principal Recommendation Letter",
+      "Bank Account Details"
+    ]
+  }
+]
